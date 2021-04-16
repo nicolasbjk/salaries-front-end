@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<br>
+<br>
+<br>
+<br>
+
+<div style="text-align:center">
+  <h1>
+    Employees Salaries
+  </h1>
+</div>
+
+<br>
+
+<div class="col-12">
+  <app-employee-finder (dataChanged)="refreshData($event)" [(dataSource)]="lstEmployees"></app-employee-finder>
+</div>
+
+<br>
+
+<div class="col-12" style="text-align:center;">
+  <app-employee-list [(dataSource)]="lstEmployees"></app-employee-list>
+</div>
+
+<router-outlet></router-outlet>
