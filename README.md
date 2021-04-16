@@ -1,6 +1,6 @@
 # MasGlobalTest
 
-Get the backend repository for this project --> [BE] https://github.com/nicolasbjk/Salaries_BackEnd
+Get the backend repository for this project --> [BE](https://github.com/nicolasbjk/Salaries_BackEnd)
 
 ## Angular version
 
